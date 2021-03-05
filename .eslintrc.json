@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins":["prettier"],
+  "rules": {
+    "no-unused-vars": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto",
+        "singleQuote": true,
+        "parser": "flow",
+        "jsxSingleQuote": true
+      }
+     
+    ]
+  }
+}
